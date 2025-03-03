@@ -25,6 +25,7 @@ RegisterNumber: 212223220073
 ```
 
 ## CODE:
+```
 import numpy as np
 import matplotlib.pyplot as plt
 x=np.array(eval(input()))
@@ -45,7 +46,7 @@ print("Predicted Value",y_pred)
 plt.scatter(x,y)
 plt.plot(x,y_pred,color='red')
 plt.show()
-
+```
 
 
 ## Output:
